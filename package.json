@@ -1,0 +1,19 @@
+{
+  "name": "campspot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node check-dates",
+    "test": "mocha ./test --reporter mochawesome",
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.2"
+  }
+}
